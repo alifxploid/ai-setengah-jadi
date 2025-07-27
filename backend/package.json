@@ -1,0 +1,42 @@
+{
+  "name": "gryt-backend",
+  "version": "1.0.0",
+  "description": "AI Chat Backend - Database Migration Management",
+  "main": "knexfile.js",
+  "scripts": {
+    "migrate:latest": "knex migrate:latest",
+    "migrate:rollback": "knex migrate:rollback",
+    "migrate:status": "knex migrate:status",
+    "migrate:make": "knex migrate:make",
+    "seed:run": "knex seed:run",
+    "seed:make": "knex seed:make",
+    "db:setup": "npm run migrate:latest && npm run seed:run",
+    "db:reset": "npm run migrate:rollback --all && npm run migrate:latest && npm run seed:run"
+  },
+  "keywords": [
+    "golang",
+    "mysql",
+    "knex",
+    "migrations",
+    "ai-chat",
+    "backend"
+  ],
+  "author": "Gryt Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "knex": "^3.1.0",
+    "mysql2": "^3.6.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipxcode/gryt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lipxcode/gryt/issues"
+  },
+  "homepage": "https://lipdev.id"
+}

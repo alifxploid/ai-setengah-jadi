@@ -1,0 +1,121 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build artifacts
+build/
+dist/
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (for Knex migrations)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+.dockerignore
+
+# Air (live reload)
+tmp/
+
+# Compiled binary
+gryt-backend
+main
+
+# Test coverage
+profile.out
+coverage.html
+
+# Vendor directory
+vendor/
+
+# Local development files
+*.local
+.local/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Configuration files with secrets
+config.json
+config.yaml
+config.yml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor backup files
+*~
+*.orig
+*.rej
+
+# Profiling files
+cpu.prof
+mem.prof
+block.prof
+mutex.prof
